@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Making earth cooler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="body">
+    <div class="header">
+      <div class="header-padding">
+        <nav>
+          <div class="navigation">
+            <a class="navigation__logo" href="#">Logo</a>
+            <a class="navigation__link" id="navIcon-el" href="#"
+              ><img
+                class="navigation__icon"
+                src="./images/burger.svg"
+                alt="menu"
+            /></a>
+          </div>
+
+          <div class="nav-highlight">
+            <a class="navbar-highligth__link" id="highlight-el" href="#"
+              ><img
+                class="navbar-highlight__icon"
+                src="./images/x-mark-256.png"
+                alt="menu"
+              />
+            </a>
+            <a class="navbar-highlight__item" href="#">Company</a>
+            <a class="navbar-highlight__item" href="#">Marketplace</a>
+            <a class="navbar-highlight__item" href="#">Features</a>
+            <a class="navbar-highlight__item" href="#">Team</a>
+            <a class="navbar-highlight__item" href="#">Contact</a>
+            <a
+              class="navbar-highlight__item navbar-highlight__item--color"
+              href="#"
+              >Log in</a
+            >
+          </div>
+
+          <div class="navbar-desktop">
+            <div class="navbar-left">
+              <a class="navbar-left__item navbar-left__item--size" href="#"
+                >Logo</a
+              >
+              <a class="navbar-left__item" href="#">Company</a>
+              <a class="navbar-left__item" href="#">Marketplace</a>
+              <a class="navbar-left__item" href="#">Features</a>
+              <a class="navbar-left__item" href="#">Team</a>
+              <a class="navbar-left__item" href="#">Contact</a>
+            </div>
+            <div class="navbar-right">
+              <a class="navbar-right__item" href="#">Log in</a>
+              <a
+                class="navbar-right__item navbar-right__item--highlight"
+                href="#"
+                >Get started</a
+              >
+            </div>
+          </div>
+        </nav>
+
+        <div class="header__content">
+          <div class="header-description">
+            <div class="header-description__title">
+              <h1 class="header-title header-title--size">
+                Making earth cooler for people, nature, climate
+              </h1>
+              <p class="header-paragraf header-paragraf--size">
+                Protecting the planet and its natural resources for future
+                generations, by reducing pollution, promoting sustainability,
+                and conserving energy and resources.
+              </p>
+            </div>
+            <div class="header-button-container">
+              <button
+                id="header-btn"
+                class="header-button header-button--highlight header-button--size"
+              >
+                Donate now
+              </button>
+              <button
+                class="header-button header-button--gray header-button--size"
+              >
+                Learn more
+              </button>
+            </div>
+
+            <div class="header-sponsors">
+              <div class="header-sponsors__text">Sponsors:</div>
+              <div class="header-sponsors__logo">
+                <img
+                  class="logo-item"
+                  src="./images/Intel.svg"
+                  alt="intel logo"
+                />
+                <img
+                  class="logo-item"
+                  src="./images/Fedex.svg"
+                  alt="fedex logo"
+                />
+                <img
+                  class="logo-item"
+                  src="./images/Visa.svg"
+                  alt="visa logo"
+                />
+                <img
+                  class="logo-item"
+                  src="./images/Disney.svg"
+                  alt="disney logo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel">
+            <img
+              id="slide1"
+              class="header-content__img header-content__img--active"
+              src="./images/card-header.png"
+              alt="picture of nature"
+            />
+            <img
+              id="slide2"
+              class="header-content__img"
+              src="./images/Mockup2-desktop.svg"
+              alt="picture of nature"
+            />
+            <img
+              id="slide3"
+              class="header-content__img"
+              src="./images/Mockup1-desktop.svg"
+              alt="picture of nature"
+            />
+            <div class="dot">
+              <a href="#"
+                ><img
+                  id="dot1"
+                  class="dots"
+                  src="./images/dot-white.png"
+                  alt="dot navigate carousel"
+              /></a>
+              <a href="#"
+                ><img
+                  id="dot2"
+                  class="dots"
+                  src="./images/dot-gray.png"
+                  alt="dot navigate carousel"
+              /></a>
+              <a href="#"
+                ><img
+                  id="dot3"
+                  class="dots"
+                  src="./images/dot-gray.png"
+                  alt="dot navigate carousel"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="section">
+        <div class="values-padding">
+          <div class="values">
+            <div class="values__item">
+              <h2 class="values-title values-title--size">104M</h2>
+              <p class="values-description">Trees planted</p>
+            </div>
+            <div class="values__item">
+              <h2 class="values-title values-title--size">20k+</h2>
+              <p class="values-description">Partners & Donors</p>
+            </div>
+            <div class="values__item">
+              <h2 class="values-title values-title--size">90M</h2>
+              <p class="values-description">Tonnes of Carbon Stored</p>
+            </div>
+            <div class="values__item">
+              <h2 class="values-title values-title--size">50+</h2>
+              <p class="values-description">People-Powered Projects</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-flowbite">
+        <div class="flowbite-padding">
+          <article class="flowbite-article">
+            <img
+              class="flowbite__image-desktop"
+              src="./images/Mockup1-desktop.svg"
+              alt="planting trees"
+            />
+            <div class="flowbite__content">
+              <h2 class="flowbite-title flowbite-title--size">
+                Flowbite Green is a climate change non-profit organization.
+              </h2>
+              <p class="flowbite-paragraf">
+                Flowbite helps you connect with friends, family and communities
+                of people who share your interests. Connecting with your friends
+                and family as well as discovering new ones is easy with features
+                like Groups.
+              </p>
+              <div class="flowbite-button">
+                <button
+                  type="button"
+                  class="flowbite__button flowbite__button--highlight"
+                >
+                  Get involved
+                </button>
+                <button
+                  type="button"
+                  class="flowbite__button flowbite__button--gray"
+                >
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="flowbite-article section__flowbite-article">
+            <div class="flowbite__content">
+              <h2 class="flowbite-title flowbite-title--size">
+                Protect our earth against climate change and pollution.
+              </h2>
+              <p class="flowbite-paragraf">
+                Flowbite helps you connect with friends, family and communities
+                of people who share your interests. Connecting with your friends
+                and family as well as discovering new ones is easy with features
+                like Groups.
+              </p>
+              <div class="flowbite-button">
+                <button
+                  type="button"
+                  class="flowbite__button flowbite__button--highlight"
+                >
+                  View all activities
+                </button>
+              </div>
+            </div>
+            <img
+              class="flowbite__image-desktop"
+              src="./images/Mockup2-desktop.svg"
+              alt="map of island"
+            />
+          </article>
+          <article class="flowbite-article section__flowbite-article">
+            <img
+              class="flowbite__image-desktop"
+              src="./images/Mockup3-desktop.svg"
+              alt="plant"
+            />
+            <div class="flowbite__content">
+              <h2 class="flowbite-title flowbite-title--size">
+                Together we can restore our earth against climate change
+              </h2>
+              <p class="flowbite-paragraf">
+                Flowbite helps you connect with friends, family and communities
+                of people who share your interests. Connecting with your friends
+                and family as well as discovering new ones is easy with features
+                like Groups.
+              </p>
+              <div class="flowbite-button">
+                <button
+                  type="button"
+                  class="flowbite__button flowbite__button--highlight"
+                >
+                  Read more
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="partners">
+        <div class="partners-padding">
+          <div class="partners-content">
+            <h2 class="partners-title">Donors, Partners & Sponsors</h2>
+            <p class="partners-paragraf">
+              Here at flowbite we focus on markets where technology, innovation,
+              and capital can unlock long-term value.
+            </p>
+            <a class="partners-link" href="#"
+              >Become a sponsor<img
+                class="partners-link__icon"
+                src="./images/blue-arrow-narrow-right.svg"
+                alt="arrow right"
+            /></a>
+          </div>
+          <article class="sponsors partners__sponsors">
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/stripe.svg"
+                alt="stripe logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Spotify.svg"
+                alt="spotify logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Tesla.svg"
+                alt="tesla logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Twitch.svg"
+                alt="twitch logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Intel.svg"
+                alt="intel logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Shell.svg"
+                alt="shell logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Netflix.svg"
+                alt="netflix logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Nestle.svg"
+                alt="nestle logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Fedex.svg"
+                alt="fedex logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Disney.svg"
+                alt="disney"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Bmw.svg"
+                alt="bmw logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+            <div class="sponsors-item">
+              <img
+                class="sponsors-item__img"
+                src="./images/Cocacola.svg"
+                alt="cocacola logo"
+              />
+              <p class="sponsors-item__text">Partner since 2015</p>
+              <a class="sponsors-item__link" href="#" target="_blank"
+                >Visit website</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-event">
+        <div class="event-padding">
+          <div class="event-description section-event__event__description">
+            <h2 class="event-title event-tittle--size">Fundraising events</h2>
+            <p class="event-paragraf">
+              Flowbite helps you connect with friends, family and communities of
+              people who share your interests.
+            </p>
+          </div>
+          <article class="event">
+            <div class="event-wrapper">
+              <img
+                class="event__image"
+                src="./images/Mockup.svg"
+                alt="planting trees"
+              />
+              <div class="event-content">
+                <div class="event__amount">
+                  <p class="event__amount-text">
+                    <span class="event__amount-price">$376,856</span>of 400k
+                    goal
+                  </p>
+                  <p class="event__amount-text event__amount-text--small">
+                    2,756 donors
+                  </p>
+                </div>
+                <progress min="0" value="75" max="100"></progress>
+              </div>
+
+              <h4 class="event__title">
+                Thank you for supporting in planting trees work.
+              </h4>
+              <p class="event__paragraf">
+                Our fundraisers are a creative bunch when it comes to taking on
+                challenges, from beard shaves and bake sales to stand-up comedy
+                and streaming marathons. There is something for everyone.
+              </p>
+              <div class="event-button">
+                <button
+                  id="event-btn1"
+                  type="button"
+                  class="event__button event__button--highlight"
+                >
+                  Donate now
+                </button>
+                <button type="button" class="event__button event__button--gray">
+                  Share this Fundraiser
+                </button>
+              </div>
+            </div>
+            <div class="event-wrapper">
+              <img
+                class="event__image"
+                src="./images/Mockup2.svg"
+                alt="planting trees"
+              />
+              <div class="event-content">
+                <div class="event__amount">
+                  <p class="event__amount-text">
+                    <span class="event__amount-price">$75,856</span>of 150k goal
+                  </p>
+                  <p class="event__amount-text event__amount-text--small">
+                    568 donors
+                  </p>
+                </div>
+                <progress min="0" value="50" max="100"></progress>
+              </div>
+
+              <h4 class="event__title">
+                Thank you for supporting our lifesaving work.
+              </h4>
+              <p class="event__paragraf">
+                Our fundraisers are a creative bunch when it comes to taking on
+                challenges, from beard shaves and bake sales to stand-up comedy
+                and streaming marathons. There is something for everyone.
+              </p>
+              <div class="event-button">
+                <button
+                  id="event-btn2"
+                  type="button"
+                  class="event__button event__button--highlight"
+                >
+                  Donate now
+                </button>
+                <button type="button" class="event__button event__button--gray">
+                  Share this Fundraiser
+                </button>
+              </div>
+            </div>
+          </article>
+          <a class="section-event__link" href="#"
+            >View all fundraising events<img
+              class="event__link-icon"
+              src="./images/blue-arrow-narrow-right.svg"
+              alt="picture of nature"
+          /></a>
+        </div>
+      </section>
+
+      <section class="section-news">
+        <div class="news-padding">
+          <div class="news-content">
+            <h2 class="news__title news__title--size">Latest news & events</h2>
+            <p class="news__paragraf news__paragraf--size">
+              We use an agile approach to test assumptions and connect with the
+              needs of your audience early and often.
+            </p>
+          </div>
+          <div class="news-column">
+            <article class="news news--margin news--padding_right">
+              <img
+                class="news__img"
+                src="./images/card-header.png"
+                alt="picture of nature"
+              />
+              <div class="news__description">
+                <h3 class="news__title news__title--small">
+                  SEO Basics: Beginner's Guide to SEO Success
+                </h3>
+                <p class="news__paragraf news__paragraf--align">
+                  Static websites are now used to bootstrap lots of websites and
+                  are becoming the basis for a variety of tools that even
+                  influence both web designers and developers.
+                </p>
+                <div class="news__link">
+                  <a class="news__link-highlight" href="#">Read more</a>
+                </div>
+              </div>
+            </article>
+            <div class="news-wrap news-wrap--border">
+              <article class="news news--gap">
+                <h3 class="news__title news__title--small">
+                  How to quickly deploy a static website
+                </h3>
+                <p class="news__paragraf news__paragraf--align">
+                  Static websites are now used to bootstrap lots of websites and
+                  are becoming the basis for a variety of tools that even
+                  influence both web designers and developers.
+                </p>
+                <div class="news__link">
+                  <a class="news__link-highlight" href="#">Read more</a>
+                </div>
+              </article>
+              <article class="news news--gap news--margin">
+                <h3 class="news__title news__title--small">
+                  What is SEO? Search Engine Optimization Explained
+                </h3>
+                <p class="news__paragraf news__paragraf--align">
+                  Static websites are now used to bootstrap lots of websites and
+                  are becoming the basis for a variety of tools that even.
+                </p>
+                <div class="news__link">
+                  <a class="news__link-highlight" href="#">Read more</a>
+                </div>
+              </article>
+              <article class="news-desktop">
+                <h3 class="news__title news__title--small">
+                  Spotify's Car Thing available to all premium users
+                </h3>
+                <p class="news__paragraf news__paragraf--align">
+                  Starting Tuesday any Spotify Premium user can buy the
+                  streaming service's first piece of hardware.
+                </p>
+                <div class="news__link">
+                  <a class="news__link-highlight" href="#">Read more</a>
+                </div>
+              </article>
+            </div>
+            <div class="news-wrap news-wrap--padding_left">
+              <article class="news news--gap">
+                <h3 class="news__title news__title--small">
+                  How to Rank Higher on Google (6 Easy Steps)
+                </h3>
+                <p class="news__paragraf news__paragraf--align">
+                  Static websites are now used to bootstrap lots of websites and
+                  are becoming the basis for a variety of tools that even
+                  influence both web designers and developers.
+                </p>
+                <div class="news__link">
+                  <a class="news__link-highlight" href="#">Read more</a>
+                </div>
+              </article>
+              <article class="news news--gap">
+                <h3 class="news__title news__title--small">
+                  12 SEO Best Practices That Everyone Should Follow
+                </h3>
+                <p class="news__paragraf news__paragraf--align">
+                  Static websites are now used to bootstrap lots of websites and
+                  are becoming the basis.
+                </p>
+                <div class="news__link">
+                  <a class="news__link-highlight" href="#">Read more</a>
+                </div>
+              </article>
+              <article class="news-desktop">
+                <h3 class="news__title news__title--small">
+                  How to schedule your Tweets to send later
+                </h3>
+                <p class="news__paragraf news__paragraf--align">
+                  Static websites are now used to bootstrap lots of websites and
+                  are becoming the basis for a variety of tools that even.
+                </p>
+                <div class="news__link">
+                  <a class="news__link-highlight" href="#">Read more</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact-padding">
+          <div class="contact-description contact__contact-description">
+            <h2 class="contact-tittle contact-title--size">Contact us</h2>
+            <p class="contact-paragraf contact-paragraf--size">
+              Got a technical issue? Want to send feedback about a beta feature?
+              Need details about our Business plan? Let us know.
+            </p>
+          </div>
+          <form class="form" method="get" action="#">
+            <div class="form__item">
+              <div class="form__wrapper">
+                <label class="label" for="email">Your email</label>
+                <input
+                  class="input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="name@flowbite.com"
+                />
+              </div>
+              <div class="form__wrapper">
+                <label class="label" for="subject">Subject</label>
+                <input
+                  class="input"
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Let us know how we can help you"
+                />
+              </div>
+            </div>
+            <div class="form__textarea">
+              <label class="label" for="message">Your message</label>
+              <textarea
+                class="message__text"
+                name="message"
+                id="message"
+                cols="10"
+                rows="10"
+              >
+              </textarea>
+            </div>
+            <button class="form-button" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-padding">
+        <div class="footer-content">
+          <div class="footer-wrap">
+            <article class="footer__item">
+              <h5><a class="footer__link-text" href="#">company</a></h5>
+              <ul class="list">
+                <li><a class="list__link" href="#">About</a></li>
+                <li><a class="list__link" href="#">Premium</a></li>
+                <li><a class="list__link" href="#">Blog</a></li>
+                <li><a class="list__link" href="#">Affiliate Program</a></li>
+                <li><a class="list__link" href="#">Get Coupon</a></li>
+              </ul>
+            </article>
+            <article class="footer__item">
+              <h5>
+                <a class="footer__link-text" href="#">help and support</a>
+              </h5>
+              <ul class="list">
+                <li><a class="list__link" href="#">Contact Us</a></li>
+                <li><a class="list__link" href="#">Knowledge Center</a></li>
+                <li><a class="list__link" href="#">Premium Support</a></li>
+                <li><a class="list__link" href="#">Sponsorships</a></li>
+              </ul>
+            </article>
+            <article class="footer__item">
+              <h5><a class="footer__link-text" href="#">learning</a></h5>
+              <ul class="list">
+                <li><a class="list__link" href="#">Learn Hub</a></li>
+                <li><a class="list__link" href="#">Manuals</a></li>
+                <li><a class="list__link" href="#">Tutorials</a></li>
+                <li><a class="list__link" href="#">Communities</a></li>
+              </ul>
+            </article>
+            <article class="footer__item">
+              <h5><a class="footer__link-text" href="#">resources</a></h5>
+              <ul class="list">
+                <li><a class="list__link" href="#">Third-Party Tools</a></li>
+                <li><a class="list__link" href="#">Illustrations</a></li>
+                <li><a class="list__link" href="#">Bluehost</a></li>
+                <li><a class="list__link" href="#">Stock Photos</a></li>
+              </ul>
+            </article>
+            <article class="footer__item">
+              <h5><a class="footer__link-text" href="#">legal</a></h5>
+              <ul class="list">
+                <li><a class="list__link" href="#">Privacy Policy</a></li>
+                <li><a class="list__link" href="#">Terms & Conditions</a></li>
+                <li><a class="list__link" href="#">EULA</a></li>
+              </ul>
+            </article>
+          </div>
+          <div class="content-icon">
+            <p class="footer-paragraf">© 2022 All rights reserved.</p>
+            <ul class="icon-list">
+              <li class="icon-list__item">
+                <a href="#">
+                  <img
+                    class="icon-list__image"
+                    src="./images/github.png"
+                    alt="github link"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="icon-list__image"
+                    src="./images/twitter.png"
+                    alt="twitter link"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="icon-list__image"
+                    src="./images/dribbble.png"
+                    alt="dribble link"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="icon-list__image"
+                    src="./images/facebook-f.png"
+                    alt="facebook link"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
